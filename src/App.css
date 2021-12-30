@@ -36,3 +36,44 @@
     transform: rotate(360deg);
   }
 }
+
+
+.main-container {
+  max-width: 600px;
+  width: 100%;
+  margin: 70px auto;
+}
+
+.main-container h1 {
+  text-align: center;
+  margin-bottom: 40px;
+}  
+
+.main-container a:link,
+.main-container a:visited {
+  color: #333;
+}
+
+.main-container a:hover {
+  color: slateblue;
+}
+
+.main-container li {
+  line-height: 1.75;
+}
+
+.countries-list li > div {
+  display: flex;
+  justify-content: space-between;
+  width : 100%;
+}
+
+.update-time {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.back {
+  text-align: center;
+  margin-top: 70px;
+}
